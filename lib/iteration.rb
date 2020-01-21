@@ -1,5 +1,6 @@
 array1 = [["ing1", "ing2"],["ing3", "ing4"]]
 def join_ingredients(src)
+  new_array = []
   row_index = 0
   while row_index < src.count do
     puts "I love #{src[row_index][0]} and #{src[row_index][1]} on my pizza"
