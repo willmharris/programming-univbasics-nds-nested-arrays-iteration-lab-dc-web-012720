@@ -16,7 +16,9 @@ def find_greater_pair(src)
   new_array = []
   row_index = 0
   while row_index < src.count do
+    
   end
+  p new_array
 end
 
 # src will be an array of [ [number1, number2], ... [numberN, numberM] ]
