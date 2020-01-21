@@ -28,6 +28,7 @@ end
   # As a reminder any number % 2 will return 0 or 1. If the result is 0, then
   # the number was even. Review the operator documentation if you've forgotten
   # this!
+array1 = [[1, 2], [4,6]]
 def total_even_pairs(src)
   
 end
