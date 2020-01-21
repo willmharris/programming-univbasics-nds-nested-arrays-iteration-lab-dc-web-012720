@@ -1,4 +1,9 @@
-
+def join_ingredients(src)
+  row_index = 0
+  while row_index < src.count do
+    "I love #{src[row_index][0]} and #{src[row_index][1]} on my pizza"
+  end
+end
 # src will be an array of [ [number1, number2], ... [numberN, numberM] ]
   # Produce a new Array that contains the larger number of each of the pairs
   # that are in the inner Arrays
