@@ -6,7 +6,7 @@ def join_ingredients(src)
     new_array[row_index] = "I love #{src[row_index][0]} and #{src[row_index][1]} on my pizza"
     row_index += 1
   end
-  p 
+  p new_array
 end
 join_ingredients(array1)
 
