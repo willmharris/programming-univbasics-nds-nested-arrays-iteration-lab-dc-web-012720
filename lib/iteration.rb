@@ -30,5 +30,14 @@ end
   # this!
 array1 = [[1, 2], [4,6]]
 def total_even_pairs(src)
-  
+  new_array = []
+  row_index = 0
+  while row_index < src.count do
+    if src[row_index][0] > src[row_index][1]
+      new_array[row_index] = src[row_index][0]
+      else new_array[row_index] = src[row_index][1]
+    end
+    row_index += 1
+  end
+  p new_array
 end
